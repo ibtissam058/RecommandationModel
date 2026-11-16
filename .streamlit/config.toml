@@ -1,0 +1,12 @@
+# Forces the light store theme, whatever theme your computer / browser uses.
+# Run `streamlit run app/app.py` from the seasonal-recsys folder so this file is picked up.
+[theme]
+base = "light"
+primaryColor = "#b08d57"
+backgroundColor = "#faf6f0"
+secondaryBackgroundColor = "#f3ece0"
+textColor = "#2b2623"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false

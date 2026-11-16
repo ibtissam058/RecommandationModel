@@ -45,9 +45,6 @@ EVENTS = [
     Event("halloween", 7, lambda y: date(y, 10, 31)),
     Event("black_friday", 7, black_friday),
     Event("christmas", 14, lambda y: date(y, 12, 25)),
-    # Candidate suggested by the weekly chart (late-August spike in 2021). Keep it only if
-    # event_volume_uplift.csv confirms it; delete this line otherwise.
-    Event("sept_1", 7, lambda y: date(y, 9, 1)),
 ]
 
 
